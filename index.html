@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu perfil</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
 
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home </a>
         </li>
@@ -17,19 +18,53 @@
         </li>
     </ul>
     
-    <h1> Sobre o Bruno </h1>
+    <h1 class="center"> Sobre o Bruno </h1>
 
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, tempore illo officia mollitia atque vero repellat deleniti ea. Incidunt quisquam quos magnam beatae inventore dolores. Illo tenetur sunt eos quo!</p>
+    <div class="container">
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus sed, pariatur corporis explicabo dolorem deleniti est at adipisci dolorum voluptate id earum exercitationem modi repellat dicta quam eveniet beatae quibusdam.</p>
+        <div class="p-30">
 
-    <img src="assets/img/eu.jfif" alt="Minha foto">
+            <p class="center justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, magni tempora, cupiditate quae dolorem architecto ipsa enim numquam saepe facere exercitationem at sed labore consequuntur, molestias adipisci voluptatibus dicta. Assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quod placeat veritatis eos laborum, facere cum perferendis pariatur quibusdam nobis eligendi dolorum doloremque illum accusamus dolorem fugit nam numquam velit!</p>
 
-    <h2>Meu vídeo predileto</h2>
+            <p class="center justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus sed, pariatur corporis explicabo dolorem deleniti est at adipisci dolorum voluptate id earum exercitationem modi repellat dicta quam eveniet beatae quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius recusandae laboriosam voluptatibus eveniet mollitia sapiente ipsa velit odio nihil quo, ut adipisci incidunt possimus repudiandae deleniti obcaecati facere numquam.</p>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/OnvQggy3Ezw" 
-    title="YouTube video player" frameborder="9" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div> 
+                
+            <img class="br-50 p-30" src="assets/img/eu.jfif" alt="Minha foto">
+
+        </div>
+
+    </div>
+
+    <h2 class="center">Meu vídeo predileto</h2>
+
+    <div class="container mb-50">
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OnvQggy3Ezw" 
+        title="YouTube video player" frameborder="9" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+
+    <hr>
+    <footer>
+       
+        <div class="container">
+            <a href="https://www.instagram.com/bbaldaia_/" target="_blank">
+                <img class = "tamanho-logo p-30" src="./assets/img/instagram.png" alt="instagram">
+            </a>
+
+            <a href="https://www.linkedin.com/in/bruno-baldaia-4069a4156/" target="_blank">
+                <img class = "tamanho-logo p-30" src="./assets/img/linkedin.png" alt="linkedin">
+            </a>            
+        </div>
+
+       <p class="center">
+            Todos os direitos reservados para: Bruno Baldaia &copy;
+       </p>
+    </footer>
 
 </body>
 </html>
